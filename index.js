@@ -15,6 +15,6 @@ function increaseRankBy(n) {
   let nodeSelect;
   for (let i = 0; i < lis.length; i++) {
     nodeSelect = parseInt(lis[i].innerHTML)
-    nodeSelect += n;
+    nodeSelect = n;
   }
 }
